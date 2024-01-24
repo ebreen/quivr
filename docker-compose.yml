@@ -25,7 +25,7 @@ services:
     image: stangirard/quivr-backend-prebuilt:latest
     pull_policy: if_not_present
     env_file:
-      - .env
+      - stack.env
     build:
       context: backend
       dockerfile: Dockerfile
@@ -59,7 +59,7 @@ services:
     pull_policy: if_not_present
     image: stangirard/quivr-backend-prebuilt:latest
     env_file:
-      - .env
+      - stack.env
     build:
       context: backend
       dockerfile: Dockerfile
@@ -73,7 +73,7 @@ services:
     image: stangirard/quivr-backend-prebuilt:latest
     pull_policy: if_not_present
     env_file:
-      - .env
+      - stack.env
     build:
       context: backend
       dockerfile: Dockerfile
@@ -87,7 +87,7 @@ services:
     image: stangirard/quivr-backend-prebuilt:latest
     pull_policy: if_not_present
     env_file:
-      - .env
+      - stack.env
     build:
       context: backend
       dockerfile: Dockerfile
